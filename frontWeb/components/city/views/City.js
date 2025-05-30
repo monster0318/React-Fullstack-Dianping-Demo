@@ -6,6 +6,7 @@ import {CityHeader} from "./CityHeader";
 import {actions as wrapActions} from '../../wrap'
 import style from './style.css'
 
+
 class City extends Component{
     constructor(props){
         super(props);
