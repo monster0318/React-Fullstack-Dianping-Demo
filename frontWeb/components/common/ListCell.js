@@ -1,6 +1,7 @@
 import React from 'react'
 import style from './style.css'
 
+
 export const ListCell = (props) => (
     <div className={style.listCellContainer} onClick={()=>props.skipToDetail(new Date().getMilliseconds())}>
         <div className={style.listCellLeftDiv}>
